@@ -1,6 +1,5 @@
 .vscode
 **__pycache__**
 build
-site
 s4dd.egg-info
 demo
