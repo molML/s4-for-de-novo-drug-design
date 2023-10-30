@@ -1,0 +1,1 @@
+These modules are heavily borrowed from the [original codebase for S4](https://github.com/HazyResearch/state-spaces) and empower the S4 model. Visit the original repository for more information.
