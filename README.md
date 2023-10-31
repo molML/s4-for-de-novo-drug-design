@@ -25,7 +25,7 @@ conda create -n s4_for_dd python==3.8.11
 conda activate s4_for_dd 
 conda install pytorch==1.13.1 pytorch-cuda==11.6 -c pytorch -c nvidia  # install pytorch with CUDA support
 conda install --file requirements.txt -c conda-forge  
-python -m pip install .  # install this codebase
+python -m pip install .  # install this codebase -- make sure that you are in the root directory of the codebase
 ```
 
 > [!WARNING]
@@ -62,6 +62,9 @@ designs, lls = s4.design_molecules(n_designs=32, batch_size=16, temperature=1.0)
 ```
 
 Voila! :tada: You have successfully trained your own S4 model from scratch for  *de novo* drug design and designed molecules in 4 lines :nazar_amulet: Examples for each step are also available in the [`examples/`](https://github.com/molML/s4-for-de-novo-drug-design/examples) folder.
+
+> [!WARNING]
+> Make sure that you replace the `"cuda"` argument with `"cpu"` if you didn't install pytorch with CUDA support.
 
 > [!IMPORTANT]
 > Use a smaller batch size if you face out-of-memory errors.
