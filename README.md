@@ -24,7 +24,7 @@ Otherwise, fire up a terminal *in the (root) directory of the codebase* and type
 conda create -n s4_for_dd python==3.8.11 
 conda activate s4_for_dd 
 conda install pytorch==1.13.1 pytorch-cuda==11.6 -c pytorch -c nvidia  # install pytorch with CUDA support
-conda install numpy==1.23.5 einops==0.4.1 -c conda-forge  
+conda install --file requirements.txt -c conda-forge  
 python -m pip install .  # install this codebase
 ```
 
