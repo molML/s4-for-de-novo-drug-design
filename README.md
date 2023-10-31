@@ -58,7 +58,7 @@ s4.train(
     val_molecules_path="./datasets/pkm2/valid.zip",
 )
 # Design new molecules
-designs, lls = s4.design_molecules(n_designs=32, batch_size=16. temperature=1.0)
+designs, lls = s4.design_molecules(n_designs=32, batch_size=16, temperature=1.0)
 ```
 
 Voila! :tada: You have successfully trained your own S4 model from scratch for  *de novo* drug design and designed molecules in 4 lines :nazar_amulet: Examples for each step are also available in the [`examples/`](https://github.com/molML/s4-for-de-novo-drug-design/examples) folder.
