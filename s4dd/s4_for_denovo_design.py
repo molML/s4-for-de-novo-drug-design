@@ -344,14 +344,15 @@ class S4forDenovoDesign:
             print(
                 f"Epoch:{epoch_ix}\tLoss: {epoch_train_loss}, Val Loss: {epoch_val_loss}"
             )
+            stop_training = False
             if callbacks is not None:
                 for callback in callbacks:
                     callback.on_epoch_end(epoch_ix=epoch_ix, history=history)
                 stop_training_flags = [callback.stop_training for callback in callbacks]
                 stop_training = sum(stop_training_flags) > 0
-                if stop_training:
-                    print("Training stopped early. Epoch:", epoch_ix)
-                    break
+            if stop_training:
+                print("Training stopped early. Epoch:", epoch_ix)
+                break
 
             if np.isnan(epoch_train_loss) or np.isnan(epoch_val_loss):
                 print("Training diverged. Epoch:", epoch_ix)
