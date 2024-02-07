@@ -349,7 +349,7 @@ class S4forDenovoDesign:
                 for callback in callbacks:
                     callback.on_epoch_end(epoch_ix=epoch_ix, history=history)
                 stop_training_flags = [callback.stop_training for callback in callbacks]
-                stop_training = sum(stop_training_flags) > 0
+                stop_training = stop_training | (sum(stop_training_flags) > 0)
             if stop_training:
                 print("Training stopped early. Epoch:", epoch_ix)
                 break
