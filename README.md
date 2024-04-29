@@ -149,18 +149,18 @@ s4.train(
 ## Documentation :scroll:
 Are you interested in doing more with `s4dd`? Or you need more information about some of `s4dd`'s (very cool) functionalities? Then you can find our online documentation useful. [Here](https://molml.github.io/s4-for-de-novo-drug-design/) you can find the detailed description of each single class and function in `s4dd`. Happy reading! :nerd_face:
 
+Or, are you only interested in a deeper look into the results in our work? 🔍 Then, [here](https://zenodo.org/records/11085650) is a link our Zenodo repository 💼
+
 ##  Closing Remarks :fireworks: 
 
 Thanks again for finding our code interesting! Please consider starring the repository :sparkles: and citing our work if this codebase has been useful for your research :woman_scientist: :man_scientist: 
 
 
 ```bibtex
-@article{ozcelik2023structured,
-  title={Structured State-Space Sequence Models for De Novo Drug Design},
-  author={{\"O}z{\c{c}}elik, R{\i}za and de Ruiter, Sarah and Grisoni, Francesca},
-  journal={ChemRxiv},
-  year={2023},
-  publisher={ACS Publications}
+@article{ozccelik2024chemical,
+  title={Chemical Language Modeling with Structured State Spaces},
+  author={{\"O}z{\c{c}}elik, R{\i}za and de Ruiter, Sarah and Criscuolo, Emanuele and Grisoni, Francesca},
+  year={2024}
 }
 ```
 
