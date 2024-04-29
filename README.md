@@ -1,6 +1,6 @@
 # S4 for De Novo Drug Design
 
-Hello hello! :raising_hand_man: Welcome to the official repository of [Structured State Space Sequence Models for De Novo Drug Design](https://chemrxiv.org/engage/chemrxiv/article-details/65168004ade1178b24567cd3)!
+Hello hello! :raising_hand_man: Welcome to the official repository of [Chemical Language Modeling with Structured State Spaces](https://chemrxiv.org/engage/chemrxiv/article-details/65b21e4766c1381729397ba7)!
 
 First things first, thanks a lot for your interest in our work and code :pray: Please consider starring :star: the repository if you find it useful &mdash; it helps us know how much maintenance we should do! :innocent:
 
