@@ -239,4 +239,3 @@ class HistoryLogger(TorchCallback):
         """
         with open(os.path.join(self.savedir, "history.json"), "w") as f:
             json.dump(history, f, indent=4)
-            json.dump(history, f, indent=4)
