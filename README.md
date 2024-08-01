@@ -1,6 +1,6 @@
 # S4 for De Novo Drug Design
 
-Hello hello! :raising_hand_man: Welcome to the official repository of [Chemical Language Modeling with Structured State Spaces](https://chemrxiv.org/engage/chemrxiv/article-details/65b21e4766c1381729397ba7)!
+Hello hello! :raising_hand_man: Welcome to the official repository of [Chemical language modeling with structured state space sequence models](https://www.nature.com/articles/s41467-024-50469-9)!
 
 First things first, thanks a lot for your interest in our work and code :pray: Please consider starring :star: the repository if you find it useful &mdash; it helps us know how much maintenance we should do! :innocent:
 
@@ -158,9 +158,14 @@ Thanks again for finding our code interesting! Please consider starring the repo
 
 ```bibtex
 @article{ozccelik2024chemical,
-  title={Chemical Language Modeling with Structured State Spaces},
+  title={Chemical language modeling with structured state space sequence models},
   author={{\"O}z{\c{c}}elik, R{\i}za and de Ruiter, Sarah and Criscuolo, Emanuele and Grisoni, Francesca},
-  year={2024}
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={6176},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 
